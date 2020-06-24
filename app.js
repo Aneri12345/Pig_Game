@@ -63,7 +63,7 @@ function diceRandom()
 function picUpdate()
 {
     document.querySelector('.dice').style.display= 'block';
-    document.querySelector('.dice').src='dice-' + diceValue + '.png';
+    document.querySelector('.dice').src='image/dice-' + diceValue + '.png';
 }
 function currentScore()
 {
